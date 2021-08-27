@@ -5,7 +5,7 @@ app.get("/", (req,res) => {
     return res.send({message: "servidor online"})
 })
 
-app.get("/", (req,res)=>{
+app.get("/atualizou", (req,res)=>{
     return res.send({message: "Atualizou mesmo"})
 })
 
